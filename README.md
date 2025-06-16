@@ -27,7 +27,7 @@ Hệ thống sử dụng các kỹ thuật định tuyến và chuyển mạch t
 - Kết nối với ToaA qua Port-channel3: 172.16.30.0/24.
 - Sẵn sàng tiếp quản kết nối ra Internet khi ToaA gặp sự cố.
 
-### 3. **ToaE – Mạng nội bộ doanh nghiệp**
+### 3. **ToaE – Mạng nội bộ**
 - Chạy OSPF với Router-ID `1.1.1.1`.
 - Cấu hình các VLAN từ VLAN10 đến VLAN100.
 - Mỗi VLAN có một địa chỉ IP gateway nội bộ (`interface vlanX`) và cấp phát DHCP tương ứng.
